@@ -16,5 +16,13 @@ The student is confirmed <%= request.getParameter("firstName")%> <%= request.get
 He belongs to <%= request.getParameter("country")%>
 <br><br>
 His favourite language is <%= request.getParameter("favouriteLanguage")%>
+<br><br>
+<%
+    String[] favouriteFrameworks = request.getParameterValues("favouriteFrameworks");
+    for (String framework : favouriteFrameworks) {
+
+        out.println("<li>" + framework + "</li>");
+    }
+%>
 </body>
 </html>
