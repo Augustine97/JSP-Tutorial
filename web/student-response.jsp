@@ -11,10 +11,10 @@
     <title>Student Confirmation Form</title>
 </head>
 <body>
-<%
-    System.out.println(request.getParameter("firstName"));
-    System.out.println(request.getParameter("lastName"));
-%>
 The student is confirmed <%= request.getParameter("firstName")%> <%= request.getParameter("lastName")%>
+<br><br>
+He belongs to <%= request.getParameter("country")%>
+<br><br>
+His favourite language is <%= request.getParameter("favouriteLanguage")%>
 </body>
 </html>
