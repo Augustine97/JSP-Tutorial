@@ -20,6 +20,15 @@
 6. Checkboxes -- write some code
 7. How to handle when user doesn't select a checkbox?
 
+## State Management With JSP
+
+1. Tracking user actions with session
+2. FAQ: For TO DO list example, I'm able to enter empty items. How to fix this?
+3. FAQ: How Do I Prevent Duplicate Items on Browser Reload?
+4. FAQ: Details on PageContext and Session objects
+5. Personalize Content with Cookies - Overview
+6. How To Handle White-Space in Cookie Values?
+
 ## License & copyright
 
 © Manu Mathew
