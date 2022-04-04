@@ -19,9 +19,9 @@ His favourite language is <%= request.getParameter("favouriteLanguage")%>
 <br><br>
 <%
     String[] favouriteFrameworks = request.getParameterValues("favouriteFrameworks");
-    for (String framework : favouriteFrameworks) {
-
-        out.println("<li>" + framework + "</li>");
+    if(favouriteFrameworks!=null){
+        for (String framework : favouriteFrameworks) {
+        out.println("<li>" + framework + "</li>");}
     }
 %>
 </body>
